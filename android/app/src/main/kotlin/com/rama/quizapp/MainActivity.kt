@@ -1,4 +1,4 @@
-package com.rama.quizapp.quizapp
+package com.rama.quizapp
 
 import io.flutter.embedding.android.FlutterActivity
 
