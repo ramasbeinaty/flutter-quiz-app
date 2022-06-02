@@ -8,34 +8,40 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Login'),
-        ),
-    );
-
     // return Scaffold(
-    //   body: Container(
-    //     padding: const EdgeInsets.all(30),
-    //     child: Column(
-    //       crossAxisAlignment: CrossAxisAlignment.stretch,
-    //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-    //       children: [
-    //         const FlutterLogo(
-    //           size: 150,
-    //         ),
-    //         Flexible(
-    //           child: LoginButton(
-    //             icon: FontAwesomeIcons.userNinja,
-    //             text: 'Continue as Guest',
-    //             loginMethod: AuthService().anonLogin,
-    //             color: Colors.deepPurple,
-    //           ),
-    //         )
-    //       ],
+    //   appBar: AppBar(
+    //     title: const Text('Login'),
     //     ),
-    //   ),
     // );
+
+    return Scaffold(
+      body: Container(
+        padding: const EdgeInsets.all(30),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            const FlutterLogo(
+              size: 150,
+            ),
+            Flexible(
+              child: LoginButton(
+                icon: FontAwesomeIcons.userNinja,
+                text: 'Continue as Guest',
+                loginMethod: AuthService().anonLogin,
+                color: Colors.deepPurple,
+              ),
+            ),
+            LoginButton(
+                text: 'Sign in with Google',
+                icon: FontAwesomeIcons.google,
+                color: Colors.blue,
+                loginMethod: AuthService().googleLogin,
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 

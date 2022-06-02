@@ -39,6 +39,7 @@ class HomeScreen extends StatelessWidget {
 
           // else if logged out, show the login screen
         } else {
+          print("showing login screen");
           return const LoginScreen();
         }
     } 
