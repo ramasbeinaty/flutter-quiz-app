@@ -8,43 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:767124134831:android:e6ae97c695c14080",
-        "android_client_info": {
-          "package_name": "com.rama.quizapp"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "767124134831-95ev4lehdps3nflt7es5guh529quhebb.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.rama.quizapp",
-            "certificate_hash": "aeb1886b05c6eaa8911a85d43fb0d1d4d5cc27ba"
-          }
-        },
-        {
-          "client_id": "767124134831-h6ikf5ir3eugklrvenieuhidlt1q6l3u.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA2m2w45J-KsPGX6jAK28pgqgwnkv0grhI"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "767124134831-h6ikf5ir3eugklrvenieuhidlt1q6l3u.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:767124134831:android:40e4fb3b240bcc0fb32d5a",
         "android_client_info": {
           "package_name": "io.rama.quizapp"
@@ -75,6 +38,13 @@
             {
               "client_id": "767124134831-h6ikf5ir3eugklrvenieuhidlt1q6l3u.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "767124134831-tonjld6bjsp7ehabmqho6omb5om93nqp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.rama.quizapp"
+              }
             }
           ]
         }
